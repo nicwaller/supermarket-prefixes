@@ -1,115 +1,35 @@
 # supermarket-prefixes
-Registry of namespace prefixes used in Chef Supermarket
 
-## `activelamp_`
-https://github.com/bezhermoso
+View the [list of prefixes](prefixes.yml) in YAML format.
 
-## `as-`
-https://github.com/pingdecopong/
+## Why namespaces?
 
-## `bjn-`
-https://github.com/sczizzo
+Chef Supermarket is a great place to share cookbooks, but it's rare to find a cookbook that will meet everybody's needs. Cookbooks are often forked, but you can't share your improvements on Supermarket using the original name.
 
-## `br-`
-https://github.com/built-by-robots
+As a GitHub user, you're already familiar with namespaces. When you fork a repository, you make a copy under your own username without actually renaming the repository itself. Unfortunately, Chef Supermarket lacks support for this kind of true namespace. Instead, we can approximate the idea of namespaces by using prefixes on our cookbook names.
 
-## `bsw-`
-https://github.com/wied03
+Namespaces are about administrative boundaries, and are usually a reflection of who has the ability to make changes to the repository. Namespaces are granted to both people and organizations.
 
-## `btm-`
-https://github.com/btm
+As the use of namespace prefixes grows there will be an increasing chance of accidental collisions, or conflict over desirable names. Hence the importance of [having a registry](https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers). Chef Supermarket already serves as a registry of cookbook names, but has no support for registering or using namespaces. And that's why this registry exists.
 
-## `cerner_`
-https://github.com/cerner
+And even if you're not using Supermarket, you should still be namespacing your cookbooks. If you implement a great `nginx` cookbook, for example, but somebody is already depending on the original `nginx` cookbook, they can't start using yours because there is a naming conflict. Using namespaces supports adoption and migration to new cookbooks.
 
-## `chamber-`
-https://github.com/rchukh
+## Claim your namespace
 
-## `chz-`
-https://github.com/cheezburger
+1. Upload a cookbook to [Chef Supermarket](https://supermarket.chef.io/). The `name` attribute in cookbook metadata must include your namespace as a prefix.
+2. Submit a pull request to this repository.
 
-## `co-`
-https://github.com/cloudops
+## Rules
 
-## `et_`
-https://github.com/evertrue
+1. You cannot claim a namespace until you've uploaded a cookbook to [Chef Supermarket](https://supermarket.chef.io/). The cookbook must be more than a placeholder, and cannot consist entirely of boilerplate.
+2. Product and technology namespaces cannot be claimed. For example, you cannot claim "memcached" as your namespace.
 
-## `eulipion-`
-https://github.com/kplimack
+## Naming guidelines
 
-## `hipsnip`
-https://github.com/hipsnip-cookbooks
+Your cookbook repository in GitHub should use the same name that is specified in your cookbook metadata. <!-- This facilitates searching for cookbooks in GitHub. --> Use the description to identify it as a cookbook.
 
-## `infochimps`
-https://github.com/infochimps-cookbooks
+Some groups choose to create a new GitHub organization to collect their cookbook repositories into a single place. These organizations are commonly named "#{organization}-cookbooks".
 
-defunct?
- 
-## `ish_`
-https://github.com/Piousbox-cookbooks
+If you don't have a separate organization but you still want to give your repository a name which clearly indicates that it is a cookbook, the preferred style is to add `cookbook-` as a prefix to the repository name.
 
-## `jn_`
-https://github.com/spheromak
-
-## `jolicode-`
-https://github.com/jolicode
-
-## `jt-`
-https://github.com/jtimberman
-
-## `L7-`
-https://github.com/szelcsanyi
-
-## `loco-`
-https://github.com/locomote-cookbooks
-
-## `lxmx_`
-https://github.com/lxmx
-
-## `met-`
-https://github.com/metno/
-
-## `modcloth-`
-https://github.com/modcloth-cookbooks
-
-## `mo-`
-https://github.com/chrodriguez
-
-## `onddo`
-https://github.com/zuazo
-
-## `poise-`
-https://github.com/poise
-
-## `puncha-`
-https://supermarket.chef.io/users/puncha
-
-## `rackspace`
-https://supermarket.chef.io/users/rackops
-
-## `rehost-`
-https://supermarket.chef.io/users/nledez
-
-## `riot_`
-https://supermarket.chef.io/cookbooks/riot_mysql
-
-## `sbp_`
-https://github.com/schubergphilis
-
-## `simple-`
-https://github.com/jsirex
-
-## `sk_`
-https://supermarket.chef.io/cookbooks/sk_s3_file
-
-## `spartan_`
-https://github.com/spartansystems?utf8=%E2%9C%93&query=cook
-
-## `spinen-`
-https://github.com/spinen
-
-## `squaresurf_`
-https://github.com/squaresurf
-
-## `vt-`
-https://github.com/VendaTech
+Avoid using the words "chef" or "cookbook" when specifying the cookbook name in metadata.rb.

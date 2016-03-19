@@ -1,0 +1,135 @@
+---
+L7:
+  github_user: szelcsanyi
+  supermarket_user: szelcsanyi
+
+activelamp:
+  github_user: bezhermoso
+  supermarket_user: bez
+
+as:
+  github_user: pingdecopong
+  supermarket_user: pingdecopong
+
+bjn:
+  github_user: sczizzo
+  supermarket_user: sczizzo
+
+br:
+  github_user: built-by-robots
+  supermarket_user: jpruetting
+
+bsw:
+  github_user: wied03
+  supermarket_user: cokecand2
+
+btm:
+  github_user: btm
+  supermarket_user: btm
+
+cerner:
+  github_user: cerner
+  supermarket_user: bbaugher
+
+chamber:
+  github_user: rchukh
+  supermarket_user: rchukh
+
+chz:
+  github_user: cheezburger
+  supermarket_user: ichcjoey
+
+co:
+  github_user: cloudops
+  supermarket_user: pdion891
+
+et:
+  github_user: evertrue
+  supermarket_user: evertrue
+
+eulipion:
+  github_user: kplimack
+  supermarket_user: kplimack
+
+hipsnip:
+  github_user: hipsnip-cookbooks
+  supermarket_user: lbdremy
+
+infochimps:
+  supermarket_user: mrflip
+
+ish:
+  github_user: Piousbox-cookbooks
+  supermarket_user: piousbox
+
+jn:
+  github_user: spheromak
+  supermarket_user: spheromak
+
+jolicode:
+  github_user: jolicode
+  supermarket_user: jwurtz
+
+jt:
+  github_user: jtimberman
+  supermarket_user: jtimberman
+
+loco:
+  github_user: locomote-cookbooks
+  supermarket_user: vaskas
+
+lxmx:
+  github_user: lxmx
+  supermarket_user: vaskas
+
+met:
+  github_user: metno
+  supermarket_user: ambientsound
+
+modcloth:
+  github_user: modcloth-cookbooks
+  supermarket_user: meatballhat
+
+onddo:
+  github_user: zuazo
+  supermarket_user: zuazo
+
+poise:
+  github_user: poise
+  supermarket_user: coderanger
+
+puncha:
+  supermarket_user: puncha
+
+rackspace:
+  supermarket_user: rackops
+
+rehost:
+  supermarket_user: nledez
+
+riot:
+  supermarket_user: reset
+
+sbp:
+  github_user: schubergphilis
+  supermarket_user: svanharmelen
+
+simple:
+  github_user: jsirex
+  supermarket_user: sirex
+
+sk:
+  github_user: lamont-opscode
+  supermarket_user: lamont-opscode
+
+spartan:
+  github_user: spartansystems
+  supermarket_user: spartan
+
+spinen:
+  github_user: spinen
+  supermarket_user: reimerluke
+
+squaresurf:
+  github_user: squaresurf
+  supermarket_user: squaresurf
